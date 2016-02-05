@@ -15,8 +15,17 @@ couteau noeud editer
 couteau noeud detruire
 ```
 
+### livres de cuisine
+```
+couteau livredecuisine creer
+couteau livredecuisine detruire
+couteau livredecuisine televerse
+```
+
 ## cuisine
 ```
-aggregat executer cuisine detruire
+aggregat executer cuisine lister
 aggregat executer cuisine converge
+aggregat executer cuisine connecter
+aggregat executer cuisine detruire
 ```
